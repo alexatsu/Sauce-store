@@ -6,7 +6,7 @@ requireEnvVars();
 export default defineNuxtConfig({
   css: ["@/assets/main.css", "@formkit/themes/genesis"],
   autoImports: {
-    dirs: ["stores"],
+    dirs: ["stores"], 
   },
   modules: [
     "@formkit/nuxt",
